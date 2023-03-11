@@ -19,9 +19,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Theme Antarctica
-email: your-email@domain.com
-author: SdtElectronics
+title: 쥐굴
+email: rattes@naver.com
+author: 흰쥐 / zzi
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
@@ -32,10 +32,10 @@ author: SdtElectronics
 # * sound recording copyright: (p) - ℗ 
 #
 # For example:
-#   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
-#   "Copyright © 2017-2021 Foobar"
+#   "Copyright (c) 2023-{currentYear} <a href="https://ccatnipzzi.github.io/">{author}</a>"
+#   "Copyright © 2023 Foobar"
 #
-copyright: "2021-{currentYear} {author}"
+copyright: "2023-{currentYear} {author}"
 
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
