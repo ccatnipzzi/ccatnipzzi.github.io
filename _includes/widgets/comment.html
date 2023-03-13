@@ -5,10 +5,10 @@
     <script>
         new Valine({
             el: '#vcomments',
-            appId: 'GoHOdR14a6Qubobq68emQ8n2-MdYXbMMI',
-            appKey: 'SCxcdTzApt8RXJVrtqsDXay0',
+            appId: '{{ site.valine.appId }}',
+            appKey: '{{ site.valine.appKey }}',
             lang: 'en',
-            serverURLs: 'https://ccatnipzzi.github.io/valine/'
+            serverURLs: '{{ site.valine.serverURLs }}'
         });
 
         document.getElementById("veditor").setAttribute("rows", "1");
