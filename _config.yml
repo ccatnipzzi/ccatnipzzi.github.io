@@ -62,7 +62,7 @@ template:
 valine:
   appId: "gNouO9Uo9gkLvaZV3UaVf0Fn-MdYXbMMI"
   appKey: "Ts62NBRW7DPb9Q8ttxkGaxmC"
-  serverURLs: https://ccatnip.com
+  serverURLs: gnouo9uo.us-w1-cname.lncldglobal.com
 
 collections_dir: collections
 collections:
@@ -79,7 +79,6 @@ projects_categories:
 related_sites:
   Jekyll | Static site generator: https://jekyllrb.com
   Source Repo | Theme antarctica: https://github.com/SdtElectronics/jekyll-theme-antarctica
-  My Homepage | SdtElectronics: https://sdtelectronics.github.io/
   
   
 defaults:
