@@ -60,9 +60,9 @@ template:
 
 # Valine Comments
 valine:
-  appId: "GoHOdR14a6Qubobq68emQ8n2-MdYXbMMI"
-  appKey: "SCxcdTzApt8RXJVrtqsDXay0"
-  serverURLs: https://gohodr14.api.lncldglobal.com
+  appId: "gNouO9Uo9gkLvaZV3UaVf0Fn-MdYXbMMI"
+  appKey: "Ts62NBRW7DPb9Q8ttxkGaxmC"
+  serverURLs: https://ccatnip.com
 
 collections_dir: collections
 collections:
