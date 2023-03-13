@@ -41,7 +41,7 @@
                      Archives
                 </a>
             </li>
-            
+            <!--
             {%- if site.template.portfolios contains "projects" -%}
             <li class = "bottomPopLi">
                 <a class = "bottomLabel barElemLabel" href = "{{ '/projects.html' | relative_url }}">
@@ -49,6 +49,7 @@
                      Projects
                 </a>
             </li>
+            --!>
             {%- endif -%}
 
             {%- if site.template.portfolios contains "gallery" -%}
@@ -101,37 +102,6 @@
                 <a class = "bottomLabel barElemLabel" href = "{{ twShareLink }}">
                     <i class = "btn nf nf-mdi-twitter"></i>
                     Share on Twitter
-                </a>
-            </li>
-
-            <li class = "bottomPopLi">
-                <a class = "bottomLabel barElemLabel" href = "https://www.facebook.com/sharer/sharer.php?u={{ surl }}">
-                    <i class = "btn nf nf-mdi-facebook_box"></i>
-                    Share on Facebook
-                </a>
-            </li>
-
-            {% assign qqShareLink = "http://connect.qq.com/widget/shareqq/iframe_index.html?url=" | append: surl | append: "&title=" | append: stitle | append: "&desc=" | append: description | append: "&pics=" | append: picture | append: "&site=" | append: origin | uri_escape %}
-            <li class = "bottomPopLi">
-                <a class = "bottomLabel barElemLabel" href = "{{ qqShareLink }}">
-                    <i class = "btn nf nf-mdi-qqchat"></i>
-                    Share with QQ Friends
-                </a>
-            </li>
-
-            {% assign wbShareLink = "http://service.weibo.com/share/share.php?type=3&count=1&url=" | append: surl | append: "&title=" | append: stitle | uri_escape %}
-
-            <li class = "bottomPopLi">
-                <a class = "bottomLabel barElemLabel" href = "{{ wbShareLink }}">
-                    <i class = "btn nf nf-fa-weibo"></i>
-                    Share on Weibo
-                </a>
-            </li>
-
-            <li class = "bottomPopLi">
-                <a class = "bottomLabel barElemLabel" href = "{{ qqShareLink }}">
-                    <i class = "btn nf nf-fa-weixin"></i>
-                    Share with WeChat Friends
                 </a>
             </li>
         </ul>
