@@ -1,15 +1,15 @@
 {%- if site.template.widgets contains "global_cmt" -%}
 <div class = "rightElem rightComt">
-    <h1 class = "lstH1">Leave a Message</h1>
+    <h1 class = "lstH1">코멘트를 남겨주시면 힘이 됩니다!</h1>
     <div id = "vcomments" style = "padding: 0.6rem 0.8rem 1rem 0.8rem;"></div>
     <script>
         new Valine({
             el: '#vcomments',
-            appId: '{{ site.valine.appId }}',
-            appKey: '{{ site.valine.appKey }}',
+            appId: 'GoHOdR14a6Qubobq68emQ8n2-MdYXbMMI'',
+            appKey: 'SCxcdTzApt8RXJVrtqsDXay0',
             lang: 'en',
             path: "home",
-            serverURLs: '{{ site.valine.serverURLs }}'
+            serverURLs: 'https://ccatnipzzi.github.io/valine/'
         });
         
         document.getElementById("veditor").setAttribute("rows", "1");
