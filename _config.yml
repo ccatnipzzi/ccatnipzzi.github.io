@@ -41,15 +41,15 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ccatnipzzi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "https://ccatnipzzi.github.io" # the subpath of your site, e.g. /blog
+url: "https://ccatnipzzi.github.io" # the base host& protocol for your site, e.g. http://example.com
 favicon: "" # the favicon for your site
 #avatar: ""
 
 template:
 # date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-  date_format: "%b %d, %Y"
+  date_format: "%Y, %b, %d"
   widgets: colophon comment global_cmt post_meta share related_sites table_of_content
   portfolios: projects gallery
   propIcons:
@@ -60,8 +60,8 @@ template:
 
 # Valine Comments
 valine:
-  appId: "GoHOdR14a6Qubobq68emQ8n2-MdYXbMMI"
-  appKey: "SCxcdTzApt8RXJVrtqsDXay0"
+  appId: "{{ site.valine.appId }}"
+  appKey: "{{ site.valine.appKey }}"
   serverURLs: https://ccatnipzzi.github.io/
 
 collections_dir: collections
